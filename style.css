@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    /* backdrop-filter: blur(1px); */
+}
+
+.background{
+    background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+}
+
+.container h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+
+}
+
+.container input{
+    font-size: 35px;
+    height:60px;
+    width: 430px;
+    border-radius: 5px;
+    background : rgb(253, 227, 240);
+    border: none;
+    outline: none;
+    margin: 10px 0;
+
+    cursor: pointer;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.527);
+    border-top: 3px solid white;    
+    border-left: 3px solid white; 
+}
+
+.container table{
+    margin:  auto;
+}
+
+.container table button{
+    margin: 1px;
+    font-size: 40px;
+    /* padding: 20px; */
+    width:  105px;
+    height: 75px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.527);
+    border-top: 3px solid white;    
+    border-left: 3px solid white; 
+}
+
+.container table button:hover{
+    background : rgb(253, 227, 240);
+    font-size: 50px;
+    transform: scale(0.9);
+}
